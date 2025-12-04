@@ -1,0 +1,10 @@
+$ git config --global user.name OOOOO
+$ git config --global user.email OOOOOO@gmail.com
+$ git config --global core.autocrlf true
+$ git config --global core.safecrlf false
+$ git config --global core.editor 'code --wait'
+$ git config --global init.defaultBranch main
+
+--system : 모든 사용
+--global : 현재 사용자의 모든 저장소
+--local : 현재 사용자의 현재 저장
