@@ -1,0 +1,17 @@
+$ git clone 저장소주소 [저장소풀더] : 원격저장소를 자신의 지역저장소로 복사
+
+& git remote : 원격저장소 이름 목록 확인 -v : 주소와 이름 목록
+& git remote add origin URL : 원격저장소 이름 저장
+& git remote show origin : 원격저장소 상세 정보(모든 브랜)
+& git remote rename origin org : 이름 수정
+& git remote rm org : 삭제
+
+$ git push <저장소별칭명> <브랜치명> : 지역저장소에서 원격저장소로 전송
+& git config --global push.default current
+
+$ git pull = $ git fetch + $ git merge
+$ git fetch <remote> : 원격 저장소의 정보를 지역저장소로 전송
+$ git merge : 변경된 정보를 지역저장소의 내용과 병합
+
+
+
