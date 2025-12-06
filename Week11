@@ -1,0 +1,10 @@
+병합(merge)
+fast-forward(빨리감기)병합 : 현재 브랜치가 병합할 대상 커밋의 직접적인 뿌리(조상)가 되는 경우
+3-way병합 : 두 브랜치의 조상이 같은 경우 새로운 커밋에서 두 기록을 합침
+$ git merge <병합 할 브랜치>
+$ git merge --no-ff <병합 할 브랜치> : fast-forward병합이 가능한 경우라도 3-way 병합 수행
+$ git merge --ff-only <병합 할 브랜치> : 상태가 fast-forward인 일렬 상태에서만 병합 진행
+$ git merge --squash <병합 할 브랜치> : 현재 브랜치에 병합 대상과의 합치는 커밋을 하나 생성해 병(과거 기록 소멸)
+$ git merge --abort : 병합 취소
+$ git merge feat/list : 다시 병합
+
